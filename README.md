@@ -13,12 +13,13 @@ Cet application se compose de deux élements
   2. Lancer une batterie de tests sur chaque notice importée et ajouter des marqueurs visuels pour faciliter la relecture
 
 * **Une application Web** qui permet de :
-  1. Afficher la liste des notices crées et modifiées par date
-  2. Afficher chaque notice complète avec les erreurs éventuels trouvés
+  1. Afficher le nombre des notices par jour avec le nombre qui ont des erreurs [voir copie d'écran 1](screenshot_1.png)
+  2. Afficher la liste des notices pour le jour choisi [voir copie d'écran 2](screenshot_2.png)
+  3. Afficher la notice complète avec les erreurs éventuels trouvés [voir copie d'écran 3](screenshot_3.png)
 
 ## Installation
 
-Cet outil n'utilise pas de base de données, uniquement des fichiers txt pour chaque notice importée. Son installation est donc très simple mais le script python doit être ajouté au cron du serveur pour automatiser les imports chaque nuit
+Cet outil n'utilise pas de base de données, uniquement des fichiers txt pour chaque notice importée. Son installation est donc très simple, elle nécessite python 3 pour le script d'import et PHP8 pour la partie Web. Le script python doit être ajouté au cron du serveur pour automatiser les imports chaque nuit
  
 ## Liste des tests effectués
 
