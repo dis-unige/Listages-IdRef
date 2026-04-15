@@ -1,0 +1,19 @@
+.navbar {
+    border-radius: 0px;
+    background-color: #d80669;
+    border-color: #d80669;
+    color: white;
+    font-size: large;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    min-height: 3.25rem;
+
+}
+
+.siteTitleLogo {
+    height: 40px;
+}
+
+.table-subtitle {
+  color: #858585;
+}
