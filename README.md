@@ -19,7 +19,7 @@ Cet application se compose de deux élements
 
 ## Installation
 
-Cet outil n'utilise pas de base de données, uniquement des fichiers txt pour chaque notice importée. Son installation est donc très simple, elle nécessite python 3 pour le script d'import et PHP8 pour la partie Web. Le script python doit être ajouté au cron du serveur pour automatiser les imports chaque nuit
+Cet outil n'utilise pas de base de données, uniquement des fichiers txt pour chaque notice importée. Son installation est donc très simple, elle nécessite python 3 pour le script d'import et PHP8 pour la partie Web. Le script python doit être ajouté au cron du serveur pour automatiser les imports chaque nuit. Il peut être executé deux fois avec un espacement de quelques heures pour maximiser les chances de l'import en cas de problème de connexion avec le serveur d'IdRef.
  
 ## Liste des tests effectués
 
